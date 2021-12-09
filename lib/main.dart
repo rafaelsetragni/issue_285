@@ -77,7 +77,7 @@ class _MyHomePageState extends State<MyHomePage> {
                       body: 'Simple body'
                   ),
                   schedule: NotificationCalendar.fromDate(
-                      date: DateTime.now().add(const Duration(seconds: 5))),
+                      date: DateTime.now().add(const Duration(seconds: 15))),
                 );
               },
             ),
